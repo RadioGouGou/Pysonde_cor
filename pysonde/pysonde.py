@@ -100,7 +100,6 @@ def load_reader(filename):
         reader = MW41
 
     elif ending == ".cor":
-        print('youhuuuuuuu')
         from .readers.readers import METEOMODEM
 
         reader = METEOMODEM
